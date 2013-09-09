@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GM Snippets v0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-06 16:15:14+0000\n"
+"Last-Translator: habitat_admin <info@bbhabitat.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: GMSnippets.php:0
+#@ gmsnippets
+msgid "GM Snippets"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: GMSnippets.php:0
+#@ gmsnippets
+msgid "Use a CPT to handle reusable content trought a site. Reusable content can be used va template tag shortcode or widget."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: GMSnippets.php:0
+#@ gmsnippets
+msgid "Giuseppe Mazzapica"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: GMSnippets.php:0
+#@ gmsnippets
+msgid "0.1.0"
+msgstr ""
+
+#: inc/GMSnippets.class.php:40
+#@ gmsnippets
+msgctxt "Snippets post type label name"
+msgid "Snippets"
+msgstr ""
+
+#: inc/GMSnippets.class.php:41
+#@ gmsnippets
+msgctxt "Snippets post type label singular_name"
+msgid "Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:42
+#@ gmsnippets
+msgctxt "Snippets post type label menu_name"
+msgid "Snippets"
+msgstr ""
+
+#: inc/GMSnippets.class.php:43
+#@ gmsnippets
+msgctxt "Snippets post type label all_items"
+msgid "Snippets"
+msgstr ""
+
+#: inc/GMSnippets.class.php:44
+#@ gmsnippets
+msgctxt "Snippets post type label add_new"
+msgid "Add New"
+msgstr ""
+
+#: inc/GMSnippets.class.php:45
+#@ gmsnippets
+msgctxt "Snippets post type label add_new_item"
+msgid "Add New Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:46
+#@ gmsnippets
+msgctxt "Snippets post type label edit_item"
+msgid "Edit Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:47
+#@ gmsnippets
+msgctxt "Snippets post type label new_item"
+msgid "New Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:48
+#@ gmsnippets
+msgctxt "Snippets post type label view_item"
+msgid "View Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:49
+#@ gmsnippets
+msgctxt "Snippets post type label search_items"
+msgid "Search Snippets"
+msgstr ""
+
+#: inc/GMSnippets.class.php:50
+#@ gmsnippets
+msgctxt "Snippets post type label not_found"
+msgid "Snippets not found"
+msgstr ""
+
+#: inc/GMSnippets.class.php:51
+#@ gmsnippets
+msgctxt "Snippets post type label not_found_in_trash"
+msgid "Snippets not found in trash"
+msgstr ""
+
+#: inc/GMSnippets.class.php:52
+#@ gmsnippets
+msgctxt "Snippets post type label parent_item_colon"
+msgid "Parent Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:56
+#@ gmsnippets
+msgctxt "Snippets post type label"
+msgid "Snippets"
+msgstr ""
+
+#: inc/GMSnippets.class.php:245
+#@ gmsnippets
+msgid "Select a Snippet"
+msgstr ""
+
+#: inc/GMSnippets.class.php:261
+#@ gmsnippets
+msgctxt "Snippets dropdown"
+msgid "Snippets not found"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:22
+#@ gmsnippets
+msgid "Show a snippet in a widget"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:69
+#@ gmsnippets
+msgctxt "Widget form"
+msgid "Widget Title"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:70
+#@ gmsnippets
+msgctxt "Widget form"
+msgid "Snippet"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:71
+#@ gmsnippets
+msgctxt "Widget form"
+msgid "Before Content"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:72
+#@ gmsnippets
+msgctxt "Widget form"
+msgid "After Content"
+msgstr ""
+
+#: inc/GMSnippetsWidget.class.php:73
+#@ gmsnippets
+msgctxt "Widget form"
+msgid "Additional Content"
+msgstr ""
+
