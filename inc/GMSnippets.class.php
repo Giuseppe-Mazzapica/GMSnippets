@@ -109,7 +109,7 @@ class GMSnippets {
 			$add_content = wp_filter_post_kses( file_get_contents($path) );
 			
 		}
-		return snippet($id, $n, $add_content);
+		return self::snippet($id, $n, $add_content);
 	}
 	
 	
@@ -140,12 +140,10 @@ class GMSnippets {
 			  "SELECT ID, post_title, post_name, post_content FROM $wpdb->posts WHERE ID = %d", $id
 			) );
 		}
-		
 		if ( ! isset($snippet->post_content) && empty( $add_content) ) return;
 		$content = ( isset($snippet->post_content) ) ? $snippet->post_content : '';
 		if ( $add_content ) $content .= apply_filters('gmsnippets_add_content', $add_content, $snippet, $content);
-		$content = apply_filters('gmsnippets_content', $content, $snippet);
-		return $content;
+		return apply_filters('gmsnippets_content', $content, $snippet);
 	}
 	
 	
@@ -163,7 +161,7 @@ class GMSnippets {
 		if ( $file && ( file_exists($file) || file_exists(get_template_directory() . $file) ) ) {
 			$path = file_exists($file) ? $file : get_template_directory() . $file;
 			$add_content = wp_filter_post_kses( file_get_contents($file) );
-			return snippet( 0, '', $add_content );
+			return self::snippet( 0, '', $add_content );
 		}
 	}
 	
